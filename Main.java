@@ -235,20 +235,95 @@ public class Main {
 
 
 
-        int a = 10;
-        double b = a;
+//        testing out difference between int and double when printing and different ways to do so
 
-        System.out.println(a);
-        System.out.println(b);
-        System.out.println((double)a);
-
-
-
-
+//        int a = 10;
+//        double b = a;
+//
+//        System.out.println(a);
+//        System.out.println(b);
+//        System.out.println((double)a);
 
 
 
 
+
+//        STORYTIME
+
+//        Scanner input = new Scanner(System.in);
+//
+//        System.out.println("We are going to write a story! Enter your choices and then read your personalised story :)");
+//
+//
+//        System.out.println("Enter a name: ");
+//        String name = input.nextLine();
+//
+//        System.out.println("Enter a creature: ");
+//        String creature = input.nextLine();
+//
+//        System.out.println("Enter a job: ");
+//        String job = input.nextLine();
+//
+//        System.out.println("Enter a past-tense feeling: ");
+//        String feeling = input.nextLine();
+//
+//        System.out.println("Enter a past-tense verb: ");
+//        String verb = input.nextLine();
+//
+//        System.out.println("Enter a shop: ");
+//        String shop = input.nextLine();
+//
+//        System.out.println("Enter a celebrity: ");
+//        String celebrity = input.nextLine();
+//
+//        System.out.println("Enter a past-tense verb: ");
+//        String action = input.nextLine();
+//
+//        System.out.println("Enter a phone helpline: ");
+//        String phone = input.nextLine();
+//
+//        System.out.println("Enter a noun: ");
+//        String noun = input.nextLine();
+//
+//        System.out.println("Enter a location: ");
+//        String location = input.nextLine();
+//
+//        System.out.println("Enter an animal: ");
+//        String animal = input.nextLine();
+//
+//        System.out.println("Enter a home: ");
+//        String home = input.nextLine();
+//
+//
+//
+//
+//
+//
+//        System.out.println("There once was a child named " + name + ", they lived a normal life. Then one day a " + creature + " came to visit, and told them they were in fact a " + job +  "." + "\n" + " The child was " + feeling + " by the news. They " + verb + " the " + creature +
+//                " and ran away. They found a " + shop + " and went in. They saw " + celebrity + " inside, and " + action  + " them. " + "\n" + celebrity + " phoned " + phone + " and asked for a " + noun + "." + "\n" + name + " ran to " + location + " and met a " + animal + " so they " +
+//                "stroked it. " + name + " decided to take it home with them, so they built it a " + home + " and it went to sleep in it.");
+
+
+
+
+
+
+//        rock paper scissors
+
+        Scanner input = new Scanner(System.in);
+
+        String[] game = {"rock", "paper", "scissors"};
+
+        System.out.println("Welcome to Rock Paper Scissors!");
+
+        System.out.println("How many round do you want to play?");
+        int number = input.nextLine();
+
+        for(int i=1; i<=number; i++){
+            System.out.println("Round " + i);
+            
+            System.out.println("Enter your choice:")
+        }
 
 
     }
